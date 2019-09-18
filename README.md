@@ -1,2 +1,2 @@
-# stressTest-Locust
-example of a stress test in Locust Framework, written in Pytho
+# load/performance test with LOCUST Framework
+Example of a test scenario with the locust framework
