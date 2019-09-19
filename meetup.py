@@ -25,9 +25,9 @@ class vUsuars (HttpLocust):
     max_wait = 5000
 
 # RUN WITHOUT UI WEB
-# locust -f locustfile.py --no-web -c 10 -r 10 --r20s --csv=testeMeetup --host http://example.com
+# locust -f locustfile.py --no-web -c 10 -r 10 --t20s --csv=testeMeetup --host http://example.com
 # --no-web = Run Locust without ui interface
 # -c = Number of Locust users to spawn
 # -r = Number of users to spawn per second
-# -r = Set the timeout for the test
+# -t = Set the timeout for the test
 # --csv = Retrieve test statistics in .CSV format
